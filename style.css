@@ -75,6 +75,7 @@ ul{
 a{
 	color: #39c;
 	text-decoration: underline;
+	transition: color 0.2s;
 }
 a:hover{
 	color: #6cf;
@@ -111,7 +112,11 @@ q:after{
 	background-position: center center;
 	background-repeat: no-repeat;
 	opacity: 0.3;
+	transition: opacity 0.3s, transform 1s, box-shadow 0.3s;
+	transform: rotate(0deg);
 }
 .source:hover{
 	opacity: 1;
+	transform: rotate(360deg);
+	box-shadow: 0 0 20px 0px #666;
 }
