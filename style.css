@@ -96,3 +96,22 @@ q:before{
 q:after{
 	content: '\0201D';
 }
+.source{
+	display: block;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	font-size: 0;
+	background-color: rgba(255, 255, 255, 0.7);
+	height: 60px;
+	width: 60px;
+	border-radius: 50px;
+	background-image: url('github.png');
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	opacity: 0.3;
+}
+.source:hover{
+	opacity: 1;
+}
