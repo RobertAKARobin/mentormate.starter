@@ -120,3 +120,14 @@ q:after{
 	transform: rotate(360deg);
 	box-shadow: 0 0 20px 0px #666;
 }
+input{
+	display: inline-block;
+	width: 100px;
+	background-color: rgba(0, 0, 0, 0.05);
+	transition: background-color 0.2s;
+	padding: 0 5px;
+}
+input:focus{
+	outline: 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
