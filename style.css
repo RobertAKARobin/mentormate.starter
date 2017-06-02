@@ -76,6 +76,12 @@ a{
 	color: #39c;
 	text-decoration: underline;
 }
+a:hover{
+	color: #6cf;
+}
+a:active{
+	color: #fc9;
+}
 strong{
 	font-weight: bold;
 	text-decoration: underline;
@@ -83,4 +89,10 @@ strong{
 em{
 	font-style: italic;
 	text-decoration: underline;
+}
+q:before{
+	content: '\0201C';
+}
+q:after{
+	content: '\0201D';
 }
