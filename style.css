@@ -1,3 +1,13 @@
-body{
-	font-family: "Comic Sans MS", sans-serif;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	text-decoration: inherit;
+	line-height: inherit;
+	color: inherit;
+	background-color: transparent;
 }
